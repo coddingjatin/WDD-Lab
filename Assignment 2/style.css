@@ -1,0 +1,43 @@
+/* Make XML elements visible */
+students, student, name, course, year, fees {
+    display: block;
+    box-sizing: border-box;
+}
+students {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f8;   /* gradient hata diya (XML safe) */
+    padding: 30px;
+}
+student {
+    background-color: #ffffff;
+    border-left: 6px solid #4f46e5;
+    padding: 18px 22px;
+    margin: 18px 0;
+    border: 1px solid #cccccc;
+}
+name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+
+course {
+    font-size: 15px;
+    color: #4b5563;
+    margin-left: 12px;
+}
+
+year {
+    font-size: 14px;
+    color: #6b7280;
+    margin-left: 12px;
+}
+
+fees {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    margin-left: 12px;
+    margin-top: 6px;
+}

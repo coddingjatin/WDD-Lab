@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<students
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="students.xsd">
+
+  <student rollno="1">
+    <name>Jatin</name>
+    <course>Computer Engineering</course>
+    <year>2025</year>
+    <fees>30000</fees>
+  </student>
+
+  <student rollno="2">
+    <name>Siddhi</name>
+    <course>Information Technology</course>
+    <year>2025</year>
+    <fees>29999</fees>
+  </student>
+
+  <student rollno="3">
+    <name>Om</name>
+    <course>Artificial Intelligence</course>
+    <year>2025</year>
+    <fees>49999</fees>
+  </student>
+
+  <student rollno="4">
+    <name>Mustafa</name>
+    <course>Data Science</course>
+    <year>2025</year>
+    <fees>39995</fees>
+  </student>
+
+</students>
